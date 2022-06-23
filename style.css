@@ -1,0 +1,172 @@
+body{
+    font-family: Helvetica;
+    font-weight: 500;
+    margin: 0 ;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    
+
+    background: -webkit-radial-gradient(32% 106%, circle cover, rgb(255, 225, 125) 0%, rgb(255, 205, 105) 10%, rgb(250, 145, 55) 28%, rgb(235, 65, 65) 42%, transparent 82%), -webkit-linear-gradient(-45deg, rgb(35, 75, 215) 12%, rgb(195, 60, 190) 58%);
+    background: -moz-radial-gradient(32% 106%, circle cover, rgb(255, 225, 125) 0%, rgb(255, 205, 105) 10%, rgb(250, 145, 55) 28%, rgb(235, 65, 65) 42%, transparent 82%), -moz-linear-gradient(-45deg, rgb(35, 75, 215) 12%, rgb(195, 60, 190) 58%);
+    background: -ms-radial-gradient(32% 106%, circle cover, rgb(255, 225, 125) 0%, rgb(255, 205, 105) 10%, rgb(250, 145, 55) 28%, rgb(235, 65, 65) 42%, transparent 82%), -ms-linear-gradient(-45deg, rgb(35, 75, 215) 12%, rgb(195, 60, 190) 58%);
+    background: -o-radial-gradient(32% 106%, circle cover, rgb(255, 225, 125) 0%, rgb(255, 205, 105) 10%, rgb(250, 145, 55) 28%, rgb(235, 65, 65) 42%, transparent 82%), -o-linear-gradient(-45deg, rgb(35, 75, 215) 12%, rgb(195, 60, 190) 58%);
+    background: radial-gradient(circle farthest-corner at 32% 106%, rgb(255, 225, 125) 0%, rgb(255, 205, 105) 10%, rgb(250, 145, 55) 28%, rgb(235, 65, 65) 42%, transparent 82%), linear-gradient(135deg, rgb(35, 75, 215) 12%, rgb(195, 60, 190) 58%);
+
+}
+
+body a{
+    text-decoration: none;
+    color: #385185;
+    font-weight: 500;
+}
+.caixatexto{
+    display: flex;
+    height: 40px;
+    width: 80%;
+    margin-bottom: 4px;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+    font-size: 14px;
+
+    
+}
+.insta-wrapper{
+    background-color: #fff;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    padding: 159px 75px 145px 75px;
+    min-height: 100%;
+    max-width: 1000px;
+    min-width: 400px;
+    flex-wrap: wrap;
+
+
+}
+.insta-phone{
+    align-content: center;
+    display: flex;
+    width: 350px;
+    /* margin-right: 20px; */
+    
+
+}   
+.insta-phone img{
+    height: 100%;
+}
+.insta-caixa{
+    padding: 10px;
+    align-content:center;
+    flex-direction: column;
+    display: flex;
+    width: 350px;
+    min-width: 350px;
+    /* margin-left: 20px; */
+
+}
+.box img{
+    max-width: 80%;
+    max-height: 100px;
+    align-content: center;
+}
+.box{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #dbdbdb;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 1px;
+
+}
+.btn-entrar{
+    display: flex;
+    background-color: #0095f6;
+    color: #fff;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 80%;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.face-logo img{
+    width: 15px;
+    height: 15px;
+}
+.box-cadastro{
+    flex-direction: row;
+    align-items: center;
+    
+}
+.box-cadastro a{
+    color: #0095f6;
+    font-weight: 600;
+}
+.insta-stores{
+    margin: 20px auto;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.nsenha a{
+    color: #00376b;
+    font-size: 12px;
+}
+.ou{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    justify-content: center;
+}
+.ou p::before{
+    content: "";
+    background-color: #501414;
+    width: 100%;
+    height: 5px;
+
+    line-height: 1px;
+
+}
+.caixarodape {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    line-height: 24px;
+    margin: auto;
+    text-align: center;
+    color: grey;
+    font-size: 12px;
+    max-width: 700px;
+    margin-top: 25px;
+    padding-top: 24px ;
+}
+.caixarodape a{
+    color: gray;
+    font-size: 14px;
+}
+
+@media(max-width:1024px){
+    body{
+         height: 0;
+    }
+    .insta-wrapper{
+        flex-wrap: wrap;
+        width: 90%;
+    }
+    .insta-phone{
+        display: none;
+    }
+    .insta-caixa{
+        padding: 0;
+        margin: 0;
+    }
+
+}
